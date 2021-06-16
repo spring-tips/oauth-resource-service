@@ -1,0 +1,8 @@
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/config/RegularJsonConfigProviderFactory.java
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/config/EmbeddedKeycloakRequestFilter.java
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/config/Resteasy3Provider.java
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/config/EmbeddedKeycloakConfig.java
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/config/SimplePlatformProvider.java
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/AuthorizationServerApp.java
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/config/KeycloakServerProperties.java
+/Users/jlong/Desktop/spring-security-oauth/oauth-rest/oauth-authorization-server/src/main/java/com/baeldung/auth/config/EmbeddedKeycloakApplication.java
