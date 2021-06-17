@@ -4,5 +4,23 @@ This example uses the [Baeldung embedded Keycloak instance ](https://github.com/
 
 The client starts up and connects to that OAuth authorization server. 
 
-You can obtain a new access token with: 
+This command will give you a token:
+
+`curl  http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/token -dgrant_type=password -dclient_id=newClient -dclient_secret=newClientSecret -dusername=mike@other.com -dpassword=pass && echo `
+
+Using the Baeldung sample
+
+If you have `jq`, you can do:
+
+```
+export TOKEN=`curl  http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/token -dgrant_type=password -dclient_id=newClient -dclient_secret=newClientSecret -dusername=mike@other.com -dpassword=pass | jq -r .access_token`
+```
+
+which will save the token as an env variable
+
+Then you can do:
+
+```
+curl -H "Authorization: Bearer $TOKEN" http://localhost:8080/hello
+```
 
